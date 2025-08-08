@@ -1,0 +1,30 @@
+name: fs033_flutter_app
+description: FS.033 - Inspección de Herramientas - App Flutter interactiva con PDF corporativo
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  provider: ^6.0.5
+  shared_preferences: ^2.2.3
+  intl: ^0.19.0
+  google_fonts: ^6.2.1
+  pdf: ^3.11.0
+  printing: ^5.13.4
+  share_plus: ^10.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/template_bg.png
